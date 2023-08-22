@@ -4,9 +4,9 @@ public class Accesorio extends Producto {
 
     public double peso;
     public String metal;
-
-    public Accesorio(double peso, String metal, String desc, double precio) {
-        super(desc, precio);
+// modificar
+    public Accesorio(double peso, String metal, String desc, [double precio]) {
+        super(desc, precio);// super(desc, this.getPrecio());
         this.peso = peso;
         this.metal = metal;
     }
